@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Marche pour la Concorde Nationale</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="Samedi 24 octobre, marchons ensemble, pacifiquement, pour l'ordre républicain et la concorde nationale. Une initiative citoyenne, apartisane.">
@@ -41,7 +46,11 @@
   color-scheme: dark;
 }
 
+[hidden] { display: none !important; }
 * { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; }
+img { max-width: 100%; }
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
 body { background: var(--paper); color: var(--ink); font-family: var(--f-body); font-size: var(--body-size); line-height: 1.65; }
@@ -205,7 +214,8 @@ footer strong { color: var(--ink); }
   .sign { padding: 22px; }
 }
 </style>
-
+</head>
+<body>
 <div class="tricolore" aria-hidden="true"><span></span><span></span><span></span></div>
 
 <main>
@@ -626,3 +636,6 @@ Hébergeur : Netlify, Inc., 512 2nd Street, Floor 2, San Francisco, CA 94107, É
   }
 })();
 </script>
+
+</body>
+</html>
